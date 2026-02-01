@@ -20,10 +20,10 @@
 
 ### Топология сети
 
-<img width="935" height="486" alt="image" src="https://github.com/user-attachments/assets/eca8637f-d2bf-4675-81bc-4b855dc13e74" />
+<img width="735" height="346" alt="image" src="https://github.com/user-attachments/assets/eca8637f-d2bf-4675-81bc-4b855dc13e74" />
 
-## Таблицы адресации и VLAN
-### Таблица адресации
+### Таблицы адресации и VLAN
+#### Таблица адресации
 
 | Устройство |	Интерфейс |	IP-адрес |	Маска подсети |	Шлюз по умолчанию |
 |------------|------------|----------|----------------|-------------------|
@@ -35,7 +35,7 @@
 | PC-A |	NIC |	192.168.20.3 |	255.255.255.0 |	192.168.20.1 |
 | PC-B |	NIC |	192.168.30.3 |	255.255.255.0 |	192.168.30.1 |
 
-## Таблица VLAN
+### Таблица VLAN
 | VLAN |	Имя |	Назначенные порты |
 |------|------|-------------------|
 | 10 |	10 |	S1: управление, S2: управление |
@@ -54,13 +54,13 @@ enable secret class
 service password-encryption
 banner motd # access #
 ```
-Аналогичная настройка на S1 и S2
+#### Аналогичная настройка на S1 и S2
 
-## Часть 2: Создание и настройка VLAN
-### На коммутаторе S1:
+### Часть 2: Создание и настройка VLAN
+#### На коммутаторе S1:
 <img width="561" height="245" alt="image" src="https://github.com/user-attachments/assets/2d4fc397-3e87-4512-9bc2-7f9bedc64d04" />
 
-### На коммутаторе S2:
+#### На коммутаторе S2:
 
 <img width="557" height="245" alt="image" src="https://github.com/user-attachments/assets/ba5b687b-501e-4f9e-9160-a89180036161" />
 
